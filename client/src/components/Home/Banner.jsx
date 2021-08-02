@@ -7,12 +7,10 @@ function Banner() {
       <div id="mainContent">
         <h1>Mystic<span>कला</span></h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-          obcaecati pariatur deleniti in totam aliquid consequuntur voluptatibus
-          perspiciatis laboriosam molestiae expedita qui architecto ipsa tempore
-          accusamus, minus saepe aliquam repudiandae?
+        Looking for some unique new merch? Whether you’re shopping for yourself or for a friend, support your graphic design community this year by shopping small and buying some thoughtfully designed custom products.
         </p>
-        <button>View Products</button>
+        <a href="#categories">   <button>View Products</button></a>
+     
       </div>
     </div>
     )

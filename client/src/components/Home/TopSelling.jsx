@@ -7,19 +7,19 @@ function TopSelling() {
         <div className="elements">
             <div className="elem">
                 <div className="elemImg"></div>
-                <h6>Creative Art</h6>
+                <h6>Posters</h6>
             </div>
             <div className="elem">
                 <div className="elemImg"></div>
-                <h6>Creative Art</h6>
+                <h6>Notebooks</h6>
             </div>
             <div className="elem">
                 <div className="elemImg"></div>
-                <h6>Creative Art</h6>
+                <h6>Wall Kits</h6>
             </div>
             <div className="elem">
                 <div className="elemImg"></div>
-                <h6>Creative Art</h6>
+                <h6>Flyers</h6>
             </div>
         </div>
     </div>

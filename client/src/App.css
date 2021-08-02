@@ -233,11 +233,22 @@ nav .links a {
 .elem > .elemImg {
 	width: 100%;
 	height: 85%;
-	/* background-color: rgb(177, 99, 21); */
-	background-image: url("https://images.unsplash.com/photo-1602188324312-e1cd6383d2fe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80");
 	background-size: cover;
 	background-position: center;
 }
+.elements>.elem:nth-child(1) .elemImg {
+	background-image: url('../src/images/poster-8.jpg');
+ }
+.elements>.elem:nth-child(2) .elemImg {
+	background-image: url('../src/images/note-2.jpg');
+ }
+ .elements>.elem:nth-child(3) .elemImg {
+	background-image: url('../src/images/wallkits.png');
+ }
+ .elements>.elem:nth-child(4) .elemImg {
+	background-image: url('../src/images/flyer-2.JPG');
+ }
+
 
 @media (max-width: 500px) {
 	#mainContent h1 {
@@ -292,6 +303,7 @@ footer {
 	align-items: center;
 	justify-content: center;
 	position: relative;
+	text-align: center;
 }
 .social {
 	display: flex;
@@ -343,16 +355,15 @@ product css
 }
 .productContainer .card {
 	width: 220px;
-	min-height: 285px;
+	height: 340px;
 	/* background-color: yellow; */
 	margin: 3rem 2rem;
+	/* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
 	text-align: center;
 }
 .productContainer .card .cardimg {
 	width: 100%;
-	height: 75%;
-	/* background-color: yellowgreen; */
-	/* background-image: url("https://images.unsplash.com/photo-1602188324312-e1cd6383d2fe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"); */
+	height: 250px;
 	background-size: cover;
 	background-position: center;
 	margin-bottom: 1rem;
@@ -360,7 +371,7 @@ product css
 .info {
 	display: flex;
 	justify-content: space-between;
-	padding: 0 2rem;
+	padding: 0 .5rem;
 	align-items: center;
 	margin-top: 1rem;
 	position: relative;
@@ -374,6 +385,7 @@ product css
 	cursor: pointer;
 	transition: all 0.5s ease;
 	perspective: 20px;
+	border-radius: 1px;
 }
 .info button:hover {
 	padding: 0.6em;
@@ -537,6 +549,8 @@ Cart css
 	flex-wrap: wrap;
 }
 .qr-div {
+	margin-left: 4rem;
+
 	width: 300px;
 	height: 300px;
 	display: flex;
@@ -547,7 +561,9 @@ Cart css
 .qr-image {
 	width: 200px;
 	height: 200px;
-	background: #000;
+  background-image: url('../src/images/qr.jpeg');
+  background-size: cover;
+  background-position: center;
 }
 
 /* modal */

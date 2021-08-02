@@ -19,7 +19,7 @@ function Products(props) {
         <ToastContainer onClick={()=> history.push('/cart')}> 
         </ToastContainer>
         <div id="product">
-        <h1 style={{marginLeft:'50px',color:'grey'}}>Buy {params.id} Items Online</h1>
+        <h1 style={{marginLeft:'50px',color:'grey'}}>{params.id}</h1>
             
             <div className="productContainer">
         {
@@ -30,7 +30,7 @@ function Products(props) {
                     <div className="card" key={_id} >
                         <div className="cardimg" style={{backgroundImage:`url(${photo})`}}  ></div>
                         <h6>{title} </h6>
-                        <div className="info"><span>SS 599</span><button onClick={()=>props.AddToCart({title,price,photo,category,_id})} >Add to cart</button></div>
+                        <div className="info"><span>Rs {price}</span><button onClick={()=>props.AddToCart({title,price,photo,category,_id})} >Add to cart</button></div>
                     </div>
 
             
