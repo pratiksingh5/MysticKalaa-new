@@ -82,7 +82,9 @@ function Checkout() {
                 </div>
                 <div className="qr-div">
                         <div className="qr-image"></div>
+                     
                         <h1>99833252672</h1>
+                    
                         <div className="qr-info">
                             Scan the QR code to Confirme the payment and Send the Screen Shot to our 
                            <a href="https://api.whatsapp.com/send?phone=916363036395&text=Hey%2C%20Here%20is%20my%20Payment%20Screen%20Shot%F0%9F%98%8A" style={{color:'green'}}> Whatsapp no.</a>

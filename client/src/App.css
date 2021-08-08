@@ -211,10 +211,18 @@ nav .links a {
 }
 #topProduct {
 	width: 100%;
-	padding: 4rem 5%;
+	padding: 4rem 4%;
 	min-height: 70vh;
+
 	/* background-color: orchid; */
 	text-align: center;
+}
+#topProduct button{
+	background-color: #eb114b;
+	color: white;
+	padding: 10px 15px;
+
+	border-radius: 2px;
 }
 #topProduct .elements {
 	width: 90%;
@@ -269,12 +277,13 @@ nav .links a {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
+	width: 80%;
 }
 #content h2 {
-	font-size: 2rem;
+	font-size: 2.3rem;
 	font-family: "GilroyMedium";
 	color: #ee3364;
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
 }
 #content h2 span {
 	font-family: "GilroyMedium";
@@ -283,11 +292,13 @@ nav .links a {
 
 #contact {
 	width: 100%;
-	height: 50vh;
+	height: 60vh;
 	background-color: #f0f0f0;
 	padding: 2rem 5%;
 	display: flex;
-	align-items: center;
+	background-image: url('https://images.unsplash.com/photo-1495106245177-55dc6f43e83f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+	background-size: cover;
+	background-position: center;
 }
 #contact h1 {
 	font-size: 7rem;
@@ -552,7 +563,7 @@ Cart css
 	margin-left: 4rem;
 
 	width: 300px;
-	height: 300px;
+	height: 400px;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
