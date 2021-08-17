@@ -3,7 +3,8 @@ import React from 'react'
 function TopSelling() {
     return (
         <div id="topProduct">
-        <h1 className="heading">Order Customizable Product</h1>
+        <h1 className="heading">Only Customizable Products </h1>
+        <p>All items are customizable</p>
         <div className="elements">
             <div className="elem">
                 <div className="elemImg"></div>
@@ -22,7 +23,7 @@ function TopSelling() {
                 <h6>Flyers</h6>
             </div>
         </div>
-        <a href="#"><button>Order Now</button></a>
+        <a href="#"><button>Customize Product</button></a>
         
     </div>
     )

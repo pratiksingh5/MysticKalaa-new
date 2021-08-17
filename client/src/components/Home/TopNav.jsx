@@ -39,6 +39,20 @@ function TopNav({cartLen}) {
               "Login"
             }
           </a>
+          <a href="" onClick={(e)=>{
+            e.preventDefault()
+            localStorage.removeItem('user')
+            localStorage.removeItem('jwt')
+            window.location.reload()
+          }} >
+            {
+              (user && token)
+              ?
+              "Logout"
+              :
+              ""
+            }
+          </a>
           <a href="/cart"><span id="cart"> <i className="ri-handbag-line"></i>{cartLen} </span></a>
         </div>
       </nav>        

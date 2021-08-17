@@ -18,7 +18,7 @@ function Footer() {
 
             </a>
         </div>
-        <small>All Coppyright reserved @MysticKala</small>
+        <small>All Coppyright reserved @MysticKalaa</small>
     </footer>
     )
 }

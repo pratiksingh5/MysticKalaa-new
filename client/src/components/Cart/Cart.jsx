@@ -47,7 +47,7 @@ function Cart(props) {
                             <span>{title} </span>
                         </div>
                         <div className="elem">
-                            <span>${parseInt(price)*Quantity} </span>
+                            <span>Rs {parseInt(price)*Quantity} </span>
                         </div>
                         <div className="elem" style={{justifyContent:"space-around"}}>
                             <button id="minus" onClick={()=>props.RemoveFromCart({_id})} >-</button>
@@ -88,7 +88,7 @@ function Cart(props) {
                 return (
                     <div className="item" key={_id} >
                     <span>{title} {"  "} X {Quantity} </span>
-                    <span>${parseInt(price)*Quantity} </span>
+                    <span>Rs {parseInt(price)*Quantity} </span>
                     </div>
                 )
                 
